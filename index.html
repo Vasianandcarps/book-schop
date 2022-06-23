@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #basket {
+position: relative;
+width: 250px;
+height: 450px;
+float: right;
+border: 1px solid;
+padding: 10px;
+
+}
+
+#cart {
+width: 250px;
+height: 400px;
+padding: 10px;
+background: tan;
+margin-right: 10px;
+margin-top: 10px;
+box-sizing: border-box;
+overflow:auto;
+}
+
+#sum {
+position: absolute;
+bottom: 5px;
+left: 10px;
+}
+input[type="button"]{  
+position: absolute;
+bottom: 5px;
+right: 10px;
+}
+
+.product {
+margin: 10px;
+}
+
+.product img {
+width: 80px;
+}
+
+.mini {
+width: 80px;
+display: block;
+margin-top: 10px;
+}
+
+
+        .wrap {
+        max-width: 550px;
+        border: 2px solid green;
+        margin: 20px;
+        padding: 20px;
+        float: left;
+        
+      }
+.bookWrap {
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+        width: 100px;
+      }
+.bookWrap img {
+        height: 100px;
+      }
+      .name{
+        font-size: 10px;
+      }
+      .order {
+        position: absolute;
+        top: 100px;
+        left: calc((100% - 600px) / 2);
+        width: 600px;
+        background: tan;
+        z-index: 9999;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        text-align: center;
+      }
+    </style>
+</head>
+
+<body>
+  <h1>Магазин</h1>
+  <button onclick="loadBooks() ">Загрузить </button>
+    <div id="books"></div>
+    <div id="basket">
+      Корзина товаров
+      <div id="cart" ondragover="allowDrop(event)" ondrop="drop(event)">
+    
+      </div>
+      <div id="sum">
+        Сумма: 0
+      </div>
+      <input type="button" value="Оформить заказ" id="button_order" />
+    </div>
+   <!--
+  <p>
+    <button id="checkout">Оформить заказ</button> &nbsp;
+    <button id="clear_cart">Очистить корзину</button>
+  </p>
+  <div id="cart_content"></div> -->
+  <script src="script.js"></script>
+</body>
+
+</html>

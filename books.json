@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "category": "Films",
+      "price": "13.99",
+      "stocked": true,
+      "name": "The Lost City",
+      "imageCover": "img/The_Lost_City_(2022).jpeg",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "category": "Films",
+      "price": "15.99",
+      "stocked": true,
+      "name": "Top Gun",
+      "imageCover": "img/Без названия.jpeg",
+      "count": 1
+    },
+    {
+      "id": 3,
+      "category": "Films",
+      "price": "$19.99",
+      "stocked": false,
+      "name": "Fantastic Beasts: The Secrets of Dumbledore",
+      "imageCover": "img/Без названия (1).jpeg",
+      "count": 1
+    },
+    {
+      "id": 4,
+      "category": "Films",
+      "price": "29.99",
+      "stocked": true,
+      "name": "Nico",
+      "imageCover": "img/Без названия (2).jpeg",
+      "count": 1
+    },
+    {
+      "id": 5,
+      "category": "Serials",
+      "price": "39.99",
+      "stocked": false,
+      "name": "Love Deth and Robots",
+      "imageCover": "img/be6401b09c1724885ae470f8baf06b1b.jpeg",
+      "count": 1
+    },
+    {
+      "id": 6,
+      "category": "Serials",
+      "price": "30.99",
+      "stocked": true,
+      "name": "Invicible",
+      "imageCover": "img/Без названия (3).jpeg",
+      "count": 1
+    },
+    {
+      "id": 7,
+      "category": "Serials",
+      "price": "32.99",
+      "stocked": true,
+      "name": "Hawkeye",
+      "imageCover": "img/Без названия (4).jpeg",
+      "count": 1
+    },
+    {
+      "id": 8,
+      "category": "Serials",
+      "price": "32.99",
+      "stocked": true,
+      "name": "The Book of Boba Fett",
+      "imageCover": "img/Без названия (5).jpeg",
+      "count": 1
+    }
+
+  ]
